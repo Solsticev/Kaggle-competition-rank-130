@@ -14,7 +14,7 @@ if __name__ == '__main__':
         # print(target_train)
         feature_train = np.delete(feature_train, -1, axis = 1)
         feature_train = np.delete(feature_train, 0, axis = 1)
-        # print(feature_train.shape)
+        ## print(feature_train.shape)
 
         feature_test = pd.read_csv("test.csv")
         feature_test = np.array(feature_test)
