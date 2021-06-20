@@ -25,7 +25,9 @@ if __name__ == '__main__':
         # model = GradientBoostingClassifier(max_depth=6, learning_rate=0.8, n_estimators=60, min_samples_leaf=2100, max_features=8, subsample=0.8, random_state=10, min_samples_split =1690)# 1.80373
         # model = GradientBoostingClassifier(max_depth=6, learning_rate=0.1, n_estimators=60, min_samples_leaf=2100, max_features=8, subsample=0.8, random_state=10, min_samples_split =1690)# 1.75312
         # model = GradientBoostingClassifier(max_depth=6, learning_rate=0.01, n_estimators=600, min_samples_leaf=2100, max_features=8, subsample=0.8, random_state=10, min_samples_split =1690)# 1.75114
-        model = GradientBoostingClassifier(max_depth=6, learning_rate=0.0025, n_estimators=2400, min_samples_leaf=2100, max_features=8, subsample=0.8, random_state=10, min_samples_split =1690)# 1.75114
+        # model = GradientBoostingClassifier(max_depth=6, learning_rate=0.0025, n_estimators=2400, min_samples_leaf=2100, max_features=8, subsample=0.8, random_state=10, min_samples_split =1690)# 1.75079
+        # model = GradientBoostingClassifier(max_depth=6, learning_rate=0.0005, n_estimators=12000, min_samples_leaf=2100, max_features=8, subsample=0.8, random_state=10, min_samples_split =1690)# 1.75069
+        model = GradientBoostingClassifier(max_depth=6, learning_rate=0.0025, n_estimators=2400, min_samples_leaf=2100, max_features=8, subsample=0.8, random_state=10, min_samples_split =1690)# 1.75079
         
         # model = GradientBoostingClassifier(learning_rate=0.1, n_estimators=800, max_features=9, subsample=0.7, random_state=10, min_samples_split =600) #1.7645
         # model = GradientBoostingClassifier(learning_rate=0.1, n_estimators=1000, max_features='sqrt', subsample=0.8, random_state=10, min_samples_split =1000, min_samples_leaf=20) #1.76150
